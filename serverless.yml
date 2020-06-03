@@ -152,13 +152,11 @@ resources:
         KeySchema:
           - AttributeName: name
             KeyType: HASH
-#resources:
-#  Resources:
-#    NewResource:
-#      Type: AWS::S3::Bucket
-#      Properties:
-#        BucketName: my-new-bucket
-#  Outputs:
-#     NewOutput:
-#       Description: "Description for the output"
-#       Value: "Some output value"
+            
+plugins:
+  - serverless-finch
+ 
+custom:
+  client:
+    bucketName: ${self:service}-${opt:stage,'dev'}-react #change this to something unique
+    distributionFolder: frontend/build/

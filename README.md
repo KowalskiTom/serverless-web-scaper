@@ -3,7 +3,7 @@ An example web scaper using Nodejs
 
 # Quick-Start
 Prereq:
-1. AWS account with IAM creds setup on your machine
+1. AWS account with IAM admin creds setup on your machine
 2. Node.js/NPM installed
 3. Severless Framework cli installed globally:
 ```console
@@ -39,6 +39,13 @@ Next, perform the install and build of the frontend:
 $ cd frontend
 $ npm install 
 $ npm run build
+```
+
+Update this line in the serverless.yml file to something unique:
+```text
+# serverless.yml file
+
+    bucketName: ${self:service}-${opt:stage,'dev'}-react
 ```
 
 Then, deploy the frontend by going back to the root and running:
