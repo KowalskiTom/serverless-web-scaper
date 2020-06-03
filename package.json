@@ -4,7 +4,7 @@
   "description": "serverless web scaper example",
   "main": "handler.js",
   "scripts": {
-    "test": "sls invoke -s dev -f refreshQuoteStats"
+    "test": "sls invoke -s dev -f refreshQuoteStats && sls invoke -s dev -f getTags && sls invoke -s dev -f getAuthors"
   },
   "repository": {
     "type": "git",

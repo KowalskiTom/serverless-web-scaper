@@ -12,12 +12,13 @@ $ npm install serverless -g
 
 To get started, first clone this repository
 ```console
-$ git clone this 
+$ git clone git@github.com:KowalskiTom/serverless-web-scaper.git 
 ```
 
 Then, perform an install via npm on the root dir and frontend dir
 
 ```console
+$ cd serverless-web-scaper
 $ npm install 
 $ sls deploy
 ```
