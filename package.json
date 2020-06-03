@@ -1,0 +1,34 @@
+{
+  "name": "serverless-web-scaper",
+  "version": "1.0.0",
+  "description": "serverless web scaper example",
+  "main": "handler.js",
+  "scripts": {
+    "test": "sls invoke -s dev -f refreshQuoteStats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KowalskiTom/serverless-web-scaper.git"
+  },
+  "keywords": [
+    "serverless",
+    "web",
+    "scaper",
+    "example",
+    "nodejs"
+  ],
+  "author": "KowalskiTom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KowalskiTom/serverless-web-scaper/issues"
+  },
+  "homepage": "https://github.com/KowalskiTom/serverless-web-scaper#readme",
+  "dependencies": {
+    "aws-sdk": "^2.687.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "serverless": "^1.72.0"
+  }
+}
