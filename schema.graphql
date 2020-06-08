@@ -1,0 +1,12 @@
+type Query {
+	getTags(filter: String): [Tag!]!
+}
+
+type Tag {
+	name: String!
+	count: Int!
+}
+
+schema {
+	query: Query
+}
