@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/KowalskiTom/serverless-web-scaper#readme",
   "dependencies": {
-    "aws-sdk": "^2.687.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "serverless-finch": "^2.5.2"
