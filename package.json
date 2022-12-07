@@ -30,6 +30,6 @@
     "serverless-finch": "^2.5.2"
   },
   "devDependencies": {
-    "serverless": "^1.72.0"
+    "serverless": "^3.25.1"
   }
 }
